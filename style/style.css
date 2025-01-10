@@ -1,469 +1,586 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* webpage default all margin will be gone */
-* { 
-    margin: 0;
-  }
+* {
+  margin: 0;
+}
 
-  /* body color style */
-  body{
-    background: rgb(245, 245, 245);
-  }
+/* body color style */
+body {
+  background: rgb(245, 245, 245);
+}
 
-  /* 1st div style */
-  .hero-header{
-    display: flex;
-    height: 84px;
-    background: rgb(245, 245, 245);
-    justify-content: space-between;
-  }
+/* 1st div style */
+.hero-header {
+  display: flex;
+  height: 84px;
+  background: rgb(245, 245, 245);
+  justify-content: space-between;
+}
 
-  /* 1st div h1 style */
-  .hero-header h1{
-color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 26px;
-font-weight: 700;
-line-height: 31px;
-letter-spacing: 0%;
-text-align: left;
-margin: 26px 0px 26px 425px;
-  }
+/* 1st div h1 style */
+.hero-header h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 26px 0px 26px 425px;
+}
 
-  /* 1st div button style */
-  .hero-header button{
-    /* button outer look */
-    width: 97px;
-    height: 43px;
-    margin: 20px 425px 20px 0px;
-    box-sizing: border-box;
-    border: 1px solid rgb(0, 106, 80);
-    border-radius: 8px;
+/* 1st div button style */
+.hero-header button {
+  /* button outer look */
+  width: 97px;
+  height: 43px;
+  margin: 20px 425px 20px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
 
-    /* button inner look */
-    color: rgb(0, 106, 80);
-    font-family: Fira Sans;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 0%;
-    text-align: center;
+  /* button inner look */
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-  }
+/* 2nd div style */
+.header-banner {
+  display: flex;
+  width: 1075.2px;
+  height: 470;
+  margin: 0px auto;
+  justify-content: space-between;
 
-  /* 2nd div style */
-  .header-banner{
-    display: flex;
-    width: 1075.2px;
-    height: 470;
-    margin: 0px auto;
-    justify-content: space-between;
+  /* 2nd div outer look style */
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
 
-    /* 2nd div outer look style */
-    border-radius: 24px;
-    background: rgb(198, 228, 214);
-  }
+/* 3rd div style */
+.header-banner-detail {
+  width: 512px;
+  height: 273.84px;
 
-  /* 3rd div style */
-  .header-banner-detail{
-    width: 512px;
-    height: 273.84px;
+  margin: 98.28px 0px 98.28px 50.4px;
+}
 
-    margin: 98.28px 0px 98.28px 50.4px;
-  }
+/* 3rd div h3 style */
+.header-banner-detail h3 {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13.44px;
+}
 
-  /* 3rd div h3 style */
-  .header-banner-detail h3{
-    color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 13.44px;
-  }
+/* 3rd div h1 style */
+.header-banner-detail h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20.16px;
+}
 
-  /* 3rd div h1 style */
-  .header-banner-detail h1{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 47px;
-    font-weight: 700;
-    line-height: 56px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 20.16px;
-  }
+/* 3rd div button style */
+.header-banner-detail button {
+  /* button outer style */
+  width: 226px;
+  height: 47px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgb(0, 106, 80);
 
-  /* 3rd div button style */
-  .header-banner-detail button{
-    /* button outer style */
-    width: 226px;
-    height: 47px;
-    border-radius: 8px;
-    border-style: none;
-    background: rgb(0, 106, 80);
+  /* button text style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-    /* button text style */
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
+/* 4th div style */
+.header-banner-pic {
+  width: 399px;
+  height: 336px;
+  margin: 67.2px 50.4px 67.2px 0px;
+}
 
-  /* 4th div style */
-  .header-banner-pic{
-    width: 399px;
-    height: 336px;
-    margin: 67.2px 50.4px 67.2px 0px; 
-  }
+/* 4th div img style */
+.header-banner-pic img {
+  width: 399px;
+  height: 336px;
+}
 
-  /* 4th div img style */
-  .header-banner-pic img{
-    width: 399px;
-    height: 336px;
-  }
+/* pillar section style */
+#pillar {
+  margin: 67.2px auto;
+  max-width: 1075.2px;
+}
 
-  /* pillar section style */
-  #pillar{
-    margin: 67.2px auto;
-    max-width: 1075.2px;
-  }
+/* under section pillar main header style */
+.section-header {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 33.6px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 26.88px;
+}
 
-    /* under section pillar main header style */
-  .section-header{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 33.6px;
-    font-weight: 700;
-    line-height: 40.32px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 26.88px;
-  }
+/* under 5th section div style */
+#pillar .pillar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
+/* 6th 7th 8th 9th style here */
+.pillar-description {
+  width: 253.68px;
+  height: 230px;
 
-  /* under 5th section div style */
-  #pillar .pillar-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
+  /* inner box style */
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
 
-  /* 6th 7th 8th 9th style here */
-  .pillar-description{
-    width: 253.68px;
-    height: 230px;
+/* 6th 7th 8th 9th img gap style */
+.pillar-description img {
+  margin: 20px 0px 20px 20px;
+}
 
-    /* inner box style */
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-  }
+/* 6th 7th 8th 9th headline gap & font style */
+.pillar-description h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 700;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px 0px 10.08px 20px;
+}
 
-  /* 6th 7th 8th 9th img gap style */
-  .pillar-description img{
-    margin: 20px 0px 20px 20px;
-  }
+/* 6th 7th 8th 9th paragraph gap & font style */
+.pillar-description p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 213px;
 
-  /* 6th 7th 8th 9th headline gap & font style */
-  .pillar-description h1{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 16.8px;
-    font-weight: 700;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin: 0px 0px 10.08px 20px;
-  }
+  margin-left: 20px;
+}
 
-  /* 6th 7th 8th 9th paragraph gap & font style */
-  .pillar-description p{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 400;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 213px;
+/* vision section style */
+#vision {
+  margin: 67.2px auto;
+  max-width: 1075.2px;
+}
 
-    margin-left: 20px;
-  }
+/* vision section headline style */
+.visionheadline {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 33.6px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20.16px;
+}
 
-  /* vision section style */
-  #vision{
-    margin: 67.2px auto;
-    max-width: 1075.2px;
-  }
+/* vision section paragraph style */
+.visionparagraph {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 26.88px;
+}
 
-  /* vision section headline style */
-  .visionheadline{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 33.6px;
-    font-weight: 700;
-    line-height: 40.32px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 20.16px;
-  }
+/* under vusion section div 10th style */
+#vision .vision-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
-  /* vision section paragraph style */
-  .visionparagraph{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 400;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 26.88px;
-  }
+/* 11th div style */
+.vision-description {
+  width: 345px;
+  height: 272.16px;
 
-  /* under vusion section div 10th style */
-  #vision .vision-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
 
-  /* 11th div style */
-  .vision-description{
-    width: 345px;
-    height: 272.16px;
+/* 11th div image gap style */
+.vision-description img {
+  margin: 27.72px 0px 21px 27.72px;
+}
 
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
-  }
+/* 11th div headline gap & font style */
+.vision-description h1 {
+  margin: 0px 0px 10.08px 27.72px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 700;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
-  /* 11th div image gap style */
-  .vision-description img{
-    margin: 27.72px 0px 21px 27.72px;
-  }
+/* 11th div paragraph gap & style */
+.vision-description p {
+  margin: 0px 27.72px 20.16px 27.72px;
+  width: 291.2028px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
-  /* 11th div headline gap & font style */
-  .vision-description h1{
-    margin: 0px 0px 10.08px 27.72px;
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 16.8px;
-    font-weight: 700;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
+/* 11th div button gap and inner font style */
+.vision-description button {
+  margin: 0px 215.6028px 27.72px 27.72px;
+  width: 102.48px;
+  height: 34.44px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgb(84, 144, 245);
 
-  /* 11th div paragraph gap & style */
-  .vision-description p{
-    margin: 0px 27.72px 20.16px 27.72px;
-    width: 291.2028px;
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 400;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
+  /* button font style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 600;
+  line-height: 15.96px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-  /* 11th div button gap and inner font style */
-  .vision-description button{
-    margin: 0px 215.6028px 27.72px 27.72px;
-    width: 102.48px;
-    height: 34.44px;
-    border-radius: 8px;
-    border-style: none;
-    background: rgb(84, 144, 245);
+/* 12th div style */
+.vision-description2 {
+  width: 345px;
+  height: 272.16px;
 
-    /* button font style */
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 600;
-    line-height: 15.96px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
 
-  /* 12th div style */
-  .vision-description2{
-    width: 345px;
-    height: 272.16px;
+/* 12th div image gap style */
+.vision-description2 img {
+  margin: 27.72px 0px 21px 27.72px;
+}
 
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgb(198, 228, 214);;
-  }
+/* 12th div headline gap & font style */
+.vision-description2 h1 {
+  margin: 0px 0px 10.08px 27.72px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 700;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
-  /* 12th div image gap style */
-  .vision-description2 img{
-    margin: 27.72px 0px 21px 27.72px;
-  }
+/* 12th div paragraph gap & style */
+.vision-description2 p {
+  margin: 0px 27.72px 40.32px 27.72px;
+  width: 291.2028px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
-  /* 12th div headline gap & font style */
-  .vision-description2 h1{
-    margin: 0px 0px 10.08px 27.72px;
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 16.8px;
-    font-weight: 700;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
+/* 12th div button gap and inner font style */
+.vision-description2 button {
+  margin: 0px 215.6028px 27.72px 27.72px;
+  width: 102.48px;
+  height: 34.44px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgb(9, 161, 92);
 
-  /* 12th div paragraph gap & style */
-  .vision-description2 p{
-    margin: 0px 27.72px 40.32px 27.72px;
-    width: 291.2028px;
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 400;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
+  /* button font style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 600;
+  line-height: 15.96px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-  /* 12th div button gap and inner font style */
-  .vision-description2 button{
-    margin: 0px 215.6028px 27.72px 27.72px;
-    width: 102.48px;
-    height: 34.44px;
-    border-radius: 8px;
-    border-style: none;
-    background: rgb(9, 161, 92);
+/* 13th div style */
+.vision-description3 {
+  width: 345px;
+  height: 272.16px;
 
-    /* button font style */
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 600;
-    line-height: 15.96px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
 
+/* 13th div image gap style */
+.vision-description3 img {
+  margin: 27.72px 0px 21px 27.72px;
+}
 
-  /* 13th div style */
-  .vision-description3{
-    width: 345px;
-    height: 272.16px;
+/* 13th div headline gap & font style */
+.vision-description3 h1 {
+  margin: 0px 0px 10.08px 27.72px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 700;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
-  }
+/* 13th div paragraph gap & style */
+.vision-description3 p {
+  margin: 0px 27.72px 20.16px 27.72px;
+  width: 291.2028px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
-  /* 13th div image gap style */
-  .vision-description3 img{
-    margin: 27.72px 0px 21px 27.72px;
-  }
+/* 13th div button gap and inner font style */
+.vision-description3 button {
+  margin: 0px 215.6028px 27.72px 27.72px;
+  width: 102.48px;
+  height: 34.44px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgb(255, 194, 57);
 
-  /* 13th div headline gap & font style */
-  .vision-description3 h1{
-    margin: 0px 0px 10.08px 27.72px;
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 16.8px;
-    font-weight: 700;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
+  /* button font style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 600;
+  line-height: 15.96px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-  /* 13th div paragraph gap & style */
-  .vision-description3 p{
-    margin: 0px 27.72px 20.16px 27.72px;
-    width: 291.2028px;
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 400;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
+/* 14th main div style */
+.dryunus-about {
+  height: 210px;
+  margin-top: 26.88px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
 
-  /* 13th div button gap and inner font style */
-  .vision-description3 button{
-    margin: 0px 215.6028px 27.72px 27.72px;
-    width: 102.48px;
-    height: 34.44px;
-    border-radius: 8px;
-    border-style: none;
-    background: rgb(255, 194, 57);;
+/* 15th div style */
+.dryunus-about-container {
+  width: 1034.88px;
+  background-image: url("../assets/quote-bg.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  margin: 20px 20.16px 40.32px 20.16px;
+}
 
-    /* button font style */
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 600;
-    line-height: 15.96px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
+/* 14th div under 15th paragraph style */
+.dryunus-about p {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 19px;
+}
 
-  /* 14th main div style */
-  .dryunus-about{
-    height: 210px;
-    margin-top: 26.88px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-  }
+/* 14th div under 15th heading style */
+.dryunus-about h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 600;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 10.08px;
+}
 
-  /* 15th div style */
-  .dryunus-about-container{
-    width: 1034.88px;
-    background-image: url('../assets/quote-bg.png');
-    background-size: 50px 50px;
-    background-repeat: no-repeat;
-    margin: 20px 20.16px 40.32px 20.16px;
-  }
+/* 14th div under 15th div heading style */
+.dryunus-about h2 {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 3.36px;
+}
 
-  /* 14th div under 15th paragraph style */
-  .dryunus-about p{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 400;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left; 
-    padding-top: 19px;
-  }
+/* option-matter section style */
+#option-matter {
+  margin: 67.2px auto;
+  max-width: 1075.2px;
+}
 
-  /* 14th div under 15th heading style */
-  .dryunus-about h1{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 16.8px;
-    font-weight: 600;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-    padding-top: 10.08px;
-  }
+/* under option matter 16th div style */
+#option-matter .option-matter-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
 
-  /* 14th div under 15th div heading style */
-  .dryunus-about h2{
-    color: rgba(14, 14, 14, 0.6);
-    font-family: Fira Sans;
-    font-size: 13.44px;
-    font-weight: 400;
-    line-height: 20.16px;
-    letter-spacing: 0%;
-    text-align: left;
-    padding-top: 3.36px; 
-  }
+.option-headline {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 33.6px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20.16px;
+  padding-left: 3px;
+}
+
+/* main table border collapse */
+table {
+  border-collapse: collapse;
+  width: 1021.44px;
+  margin-top: 26.88px;
+  margin-bottom: 26.88px;
+}
+
+/* table header left side style */
+.tableheader1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+  height: 60.48px;
+
+  /* font style */
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 600;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 20.16px;
+  border-right: none;
+}
+
+/* table header right side style */
+.tableheader2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+
+  /* font style */
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 600;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: right;
+  padding-right: 20.16px;
+  width: 180px;
+  border-left: none;
+}
+
+/* table inner side left side style */
+.tablebody-td1 {
+  height: 77.28px;
+  width: 854.28px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+
+  /* font style */
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 600;
+  line-height: 15.96px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 20.16px;
+}
+
+/* table inner side right side button style */
+.tablebody-td2 {
+  height: 77.28px;
+  width: 168px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+/* table inner side right side button font style */
+.tablebody-td2 select {
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgba(9, 161, 92, 0.15);
+
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 500;
+  line-height: 15.96px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 127.68px;
+  height: 36.96px;
+}
