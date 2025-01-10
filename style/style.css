@@ -197,3 +197,273 @@ margin: 26px 0px 26px 425px;
 
     margin-left: 20px;
   }
+
+  /* vision section style */
+  #vision{
+    margin: 67.2px auto;
+    max-width: 1075.2px;
+  }
+
+  /* vision section headline style */
+  .visionheadline{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 33.6px;
+    font-weight: 700;
+    line-height: 40.32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20.16px;
+  }
+
+  /* vision section paragraph style */
+  .visionparagraph{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 26.88px;
+  }
+
+  /* under vusion section div 10th style */
+  #vision .vision-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* 11th div style */
+  .vision-description{
+    width: 345px;
+    height: 272.16px;
+
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+  }
+
+  /* 11th div image gap style */
+  .vision-description img{
+    margin: 27.72px 0px 21px 27.72px;
+  }
+
+  /* 11th div headline gap & font style */
+  .vision-description h1{
+    margin: 0px 0px 10.08px 27.72px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16.8px;
+    font-weight: 700;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  /* 11th div paragraph gap & style */
+  .vision-description p{
+    margin: 0px 27.72px 20.16px 27.72px;
+    width: 291.2028px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  /* 11th div button gap and inner font style */
+  .vision-description button{
+    margin: 0px 215.6028px 27.72px 27.72px;
+    width: 102.48px;
+    height: 34.44px;
+    border-radius: 8px;
+    border-style: none;
+    background: rgb(84, 144, 245);
+
+    /* button font style */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 600;
+    line-height: 15.96px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  /* 12th div style */
+  .vision-description2{
+    width: 345px;
+    height: 272.16px;
+
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);;
+  }
+
+  /* 12th div image gap style */
+  .vision-description2 img{
+    margin: 27.72px 0px 21px 27.72px;
+  }
+
+  /* 12th div headline gap & font style */
+  .vision-description2 h1{
+    margin: 0px 0px 10.08px 27.72px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16.8px;
+    font-weight: 700;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  /* 12th div paragraph gap & style */
+  .vision-description2 p{
+    margin: 0px 27.72px 40.32px 27.72px;
+    width: 291.2028px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  /* 12th div button gap and inner font style */
+  .vision-description2 button{
+    margin: 0px 215.6028px 27.72px 27.72px;
+    width: 102.48px;
+    height: 34.44px;
+    border-radius: 8px;
+    border-style: none;
+    background: rgb(9, 161, 92);
+
+    /* button font style */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 600;
+    line-height: 15.96px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+
+  /* 13th div style */
+  .vision-description3{
+    width: 345px;
+    height: 272.16px;
+
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+  }
+
+  /* 13th div image gap style */
+  .vision-description3 img{
+    margin: 27.72px 0px 21px 27.72px;
+  }
+
+  /* 13th div headline gap & font style */
+  .vision-description3 h1{
+    margin: 0px 0px 10.08px 27.72px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16.8px;
+    font-weight: 700;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  /* 13th div paragraph gap & style */
+  .vision-description3 p{
+    margin: 0px 27.72px 20.16px 27.72px;
+    width: 291.2028px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  /* 13th div button gap and inner font style */
+  .vision-description3 button{
+    margin: 0px 215.6028px 27.72px 27.72px;
+    width: 102.48px;
+    height: 34.44px;
+    border-radius: 8px;
+    border-style: none;
+    background: rgb(255, 194, 57);;
+
+    /* button font style */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 600;
+    line-height: 15.96px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  /* 14th main div style */
+  .dryunus-about{
+    height: 210px;
+    margin-top: 26.88px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+  }
+
+  /* 15th div style */
+  .dryunus-about-container{
+    width: 1034.88px;
+    background-image: url('../assets/quote-bg.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    margin: 20px 20.16px 40.32px 20.16px;
+  }
+
+  /* 14th div under 15th paragraph style */
+  .dryunus-about p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left; 
+    padding-top: 19px;
+  }
+
+  /* 14th div under 15th heading style */
+  .dryunus-about h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16.8px;
+    font-weight: 600;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 10.08px;
+  }
+
+  /* 14th div under 15th div heading style */
+  .dryunus-about h2{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 3.36px; 
+  }
