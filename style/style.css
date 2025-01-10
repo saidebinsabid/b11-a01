@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* webpage default all margin will be gone */
+* { 
+    margin: 0;
+  }
+
+  /* body color style */
+  body{
+    background: rgb(245, 245, 245);
+  }
+
+  /* 1st div style */
+  .hero-header{
+    display: flex;
+    height: 84px;
+    background: rgb(245, 245, 245);
+    justify-content: space-between;
+  }
+
+  /* 1st div h1 style */
+  .hero-header h1{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0%;
+text-align: left;
+margin: 26px 0px 26px 425px;
+  }
+
+  /* 1st div button style */
+  .hero-header button{
+    /* button outer look */
+    width: 97px;
+    height: 43px;
+    margin: 20px 425px 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+
+    /* button inner look */
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+
+  }
+
+  /* 2nd div style */
+  .header-banner{
+    display: flex;
+    width: 1075.2px;
+    height: 470;
+    margin: 0px auto;
+    justify-content: space-between;
+
+    /* 2nd div outer look style */
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+  }
+
+  /* 3rd div style */
+  .header-banner-detail{
+    width: 512px;
+    height: 273.84px;
+
+    margin: 98.28px 0px 98.28px 50.4px;
+  }
+
+  /* 3rd div h3 style */
+  .header-banner-detail h3{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 13.44px;
+  }
+
+  /* 3rd div h1 style */
+  .header-banner-detail h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20.16px;
+  }
+
+  /* 3rd div button style */
+  .header-banner-detail button{
+    /* button outer style */
+    width: 226px;
+    height: 47px;
+    border-radius: 8px;
+    border-style: none;
+    background: rgb(0, 106, 80);
+
+    /* button text style */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  /* 4th div style */
+  .header-banner-pic{
+    width: 399px;
+    height: 336px;
+    margin: 67.2px 50.4px 67.2px 0px; 
+  }
+
+  /* 4th div img style */
+  .header-banner-pic img{
+    width: 399px;
+    height: 336px;
+  }
+
+  /* pillar section style */
+  #pillar{
+    margin: 67.2px auto;
+    max-width: 1075.2px;
+  }
+
+    /* under section pillar main header style */
+  .section-header{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 33.6px;
+    font-weight: 700;
+    line-height: 40.32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 26.88px;
+  }
+
+
+  /* under 5th section div style */
+  #pillar .pillar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* 6th 7th 8th 9th style here */
+  .pillar-description{
+    width: 253.68px;
+    height: 230px;
+
+    /* inner box style */
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+  }
+
+  /* 6th 7th 8th 9th img gap style */
+  .pillar-description img{
+    margin: 20px 0px 20px 20px;
+  }
+
+  /* 6th 7th 8th 9th headline gap & font style */
+  .pillar-description h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16.8px;
+    font-weight: 700;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px 0px 10.08px 20px;
+  }
+
+  /* 6th 7th 8th 9th paragraph gap & font style */
+  .pillar-description p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13.44px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 213px;
+
+    margin-left: 20px;
+  }
