@@ -584,3 +584,230 @@ table {
   width: 127.68px;
   height: 36.96px;
 }
+
+/* recent-news section style */
+#recent-news {
+  margin: 67.2px auto;
+  max-width: 1075.2px;
+}
+
+/* #recent-news section heading font style */
+#recent-news .heading {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 33.6px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20.16px;
+  padding-left: 3px;
+}
+
+/* #recent-news section paragraph font style */
+#recent-news .paragraph {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 26.88px;
+  padding-left: 3px;
+}
+/* 16th div style */
+#recent-news .recent-news-container {
+  width: 100%;
+}
+
+/* 17th 23th div style */
+.news1 {
+  display: flex;
+  margin-bottom: 20.16px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+
+.news2 {
+  display: flex;
+  margin-top: 20.16px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+
+/* 18th 24th image div image style */
+.news1-img img {
+  width: 342.72px;
+  height: 257.04px;
+  border-radius: 24px;
+  margin: 40.32px 0px 40.32px 40.32px;
+}
+
+/* 19th 25th div text style */
+.news1-text {
+  margin: 47.04px 40.32px 47.04px 26.88px;
+}
+
+/* 19th 25th div 1st heading font style */
+.news1-text .main-heading {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 26.88px;
+  font-weight: 700;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10.08px;
+}
+
+/* 19th 25th div 2nd picture style */
+.news1-text .aj-ja-image {
+  width: 112.56px;
+  height: 33.6px;
+  margin-bottom: 10.08px;
+}
+
+/* 19th 25th div 2nd heading font date style */
+.news1-text .date {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44x;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10.08px;
+}
+
+/* 19th 25th div 2nd heading font time style */
+.news1-text .date-time {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44x;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10.08px;
+  padding-left: 10.08px;
+}
+
+/* 19th 25th div paragraph font style */
+.news1-text .paragraph {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 26.88px;
+}
+
+/* 19th 25th div button style */
+.news1-text button {
+  width: 116.76px;
+  height: 40.32px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgb(0, 106, 80);
+
+  /* font style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15.12px;
+  font-weight: 600;
+  line-height: 18.48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* here start style for news2 */
+
+/* 22th image div image style */
+.news2-img .img-new2 {
+  width: 342.72px;
+  height: 257.04px;
+  border-radius: 24px;
+  margin: 40.32px 40.32px 40.32px 0px;
+}
+
+/* 20th div style */
+.news2-text {
+  margin: 47.04px 26.88px 40.32px 47.04px;
+}
+
+/* 21th div 1st heading font style */
+.news2-text .main-heading {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 26.88px;
+  font-weight: 700;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10.08px;
+}
+
+/* 21th div 2nd picture style */
+.news2-text .aj-ja-image {
+  width: 112.56px;
+  height: 33.6px;
+  margin-bottom: 10.08px;
+}
+
+/* 21th div 2nd heading font date style */
+.news2-text .date {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44x;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10.08px;
+}
+
+/* 21th div 2nd heading font time style */
+.news2-text .date-time {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44x;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10.08px;
+  padding-left: 10.08px;
+}
+
+/* 21th div paragraph font style */
+.news2-text .paragraph {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 26.88px;
+}
+
+/* 21th div button style */
+.news2-text button {
+  width: 116.76px;
+  height: 40.32px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgb(0, 106, 80);
+
+  /* font style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15.12px;
+  font-weight: 600;
+  line-height: 18.48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
