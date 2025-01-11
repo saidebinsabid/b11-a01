@@ -50,6 +50,11 @@ body {
   text-align: center;
 }
 
+/* button hover effect */
+.hero-header button:hover {
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+}
 /* 2nd div style */
 .header-banner {
   display: flex;
@@ -112,6 +117,11 @@ body {
   line-height: 18px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.header-banner-detail button:hover {
+  background-color: #e7e7e7;
+  color: rgb(0, 106, 80);
 }
 
 /* 4th div style */
@@ -291,6 +301,12 @@ body {
   text-align: center;
 }
 
+/* hover effect */
+.vision-description button:hover {
+  background-color: #04aa6d;
+  color: black;
+}
+
 /* 12th div style */
 .vision-description2 {
   width: 345px;
@@ -348,6 +364,12 @@ body {
   line-height: 15.96px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+/* hover effect */
+.vision-description2 button:hover {
+  background-color: #008cba;
+  color: black;
 }
 
 /* 13th div style */
@@ -409,6 +431,11 @@ body {
   text-align: center;
 }
 
+/* hover effect */
+.vision-description3 button:hover {
+  background-color: #f44336;
+  color: black;
+}
 /* 14th main div style */
 .dryunus-about {
   height: 210px;
@@ -723,6 +750,12 @@ table {
   text-align: center;
 }
 
+/* button hover */
+.news1-text button:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+
 /* here start style for news2 */
 
 /* 22th image div image style */
@@ -812,6 +845,12 @@ table {
   text-align: center;
 }
 
+/* hover effect */
+.news2-text button:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+
 /* donate section style  */
 #donate {
   margin: 67.2px auto;
@@ -871,6 +910,11 @@ table {
   background: rgb(255, 255, 255);
 }
 
+/* hover effect */
+.donate-amount .taka:hover {
+  background-color: #ee8b84;
+}
+
 /* only 29th div style */
 .donate-amount .taka200 {
   width: 201.6px;
@@ -881,6 +925,11 @@ table {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(198, 228, 214);
+}
+
+/* hover effect */
+.donate-amount .taka200:hover {
+  background-color: #ee8b84;
 }
 
 /* 28th 29th 30th 31th div amount box font style */
@@ -958,6 +1007,10 @@ table {
   text-align: center;
 }
 
+/* hover effect */
+.other-amount button:hover {
+  background-color: #008cba;
+}
 /* subscribe section style */
 #subscribe {
   margin: 67.2px auto;
@@ -1049,6 +1102,11 @@ table {
   text-align: center;
 }
 
+/* hover effect */
+.button-section button:hover {
+  background-color: rgb(120, 120, 120);
+}
+
 /* subscribe section lower paragrpaph style */
 .p {
   color: rgba(14, 14, 14, 0.7);
@@ -1060,4 +1118,39 @@ table {
   margin-top: 20.16px;
   /* margin-bottom: 67.2px; */
   text-align: center;
+}
+
+/* footer style start here */
+#foot .foot-container {
+  margin-top: 67.2px;
+  background: rgb(255, 255, 255);
+}
+
+/* 38th div heading style */
+.foot-container h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 26.88px;
+  font-weight: 700;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 42px;
+  margin-bottom: 26.46px;
+}
+
+/* 38th div horizontal line style */
+.foot-container hr {
+  width: 942.48px;
+  margin: 0 auto;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+/* 40th div style */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 19.32px;
+  margin-top: 27.3px;
+  padding-bottom: 42px;
 }
