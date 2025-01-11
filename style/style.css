@@ -811,3 +811,149 @@ table {
   letter-spacing: 0%;
   text-align: center;
 }
+
+/* donate section style  */
+#donate {
+  margin: 67.2px auto;
+  max-width: 1075.2px;
+}
+
+/*26th div style */
+#donate .donate-container {
+  width: 100%;
+  margin: 0px;
+}
+
+/* upper hading style */
+
+.donate-container .heading-donate {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 33.6px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20.16px;
+}
+
+/* upper paragraph style */
+.donate-container .paragraph-donate {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* 27th div style */
+.donate-amount {
+  display: flex;
+  gap: 20.16px;
+  justify-content: center;
+  align-items: center;
+  width: 899.64px;
+  height: 107.52px;
+  margin: 26.88px 87.78px 26.88px 87.78px;
+}
+
+/* 28th 29th 30th 31th div amount box style */
+.donate-amount .taka {
+  width: 201.6px;
+  height: 107.52px;
+
+  /* 28th 29th 30th 31th div inner outer style */
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+/* only 29th div style */
+.donate-amount .taka200 {
+  width: 201.6px;
+  height: 107.52px;
+
+  /* 28th 29th 30th 31th div inner outer style */
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+/* 28th 29th 30th 31th div amount box font style */
+.taka h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 30px;
+}
+
+/* only 29th div amount box font style */
+.taka200 h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 30px;
+}
+
+/* 32th div style */
+.other-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 32th div input section style */
+.other-amount input {
+  width: 830px;
+  height: 53.76px;
+  box-sizing: border-box;
+  border-style: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+
+  margin: 0px 104.16px 26.88px 104.16px;
+}
+
+/* 32th div input section placeholder style */
+.other-amount ::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16.8px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* 32th div done button style */
+.other-amount button {
+  width: 126.84px;
+  height: 56px;
+  box-sizing: border-box;
+  border-style: none;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+
+  /* inner font style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15.12px;
+  font-weight: 600;
+  line-height: 18.48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
