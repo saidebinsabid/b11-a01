@@ -957,3 +957,107 @@ table {
   letter-spacing: 0%;
   text-align: center;
 }
+
+/* subscribe section style */
+#subscribe {
+  margin: 67.2px auto;
+  max-width: 1075.2px;
+}
+
+/* 33th div style */
+#subscribe .subscribe-container {
+  width: 100%;
+  height: 331.8px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+
+/* 34th div style */
+.subscribe-details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 34th div heading font style */
+.subscribe-details h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 33.6px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 67.2px;
+  margin-bottom: 13.44px;
+}
+
+/* 34th div inner paragraph style */
+.subscribe-details p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20.16px;
+}
+
+/* 35th div style */
+.subscribe-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 36th div input style */
+.input-section input {
+  width: 504px;
+  height: 46.2px;
+  border-radius: 8px 0px 0px 8px;
+  border-style: none;
+  background: rgb(255, 255, 255);
+}
+
+/* 36th div inner placeholder style */
+.input-section ::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 15.96px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 33.6px;
+}
+
+/* 37th div  subscribe button style */
+.button-section button {
+  width: 126px;
+  height: 47.04px;
+  border-radius: 0px 8px 8px 0px;
+  border-style: none;
+  background: rgb(0, 106, 80);
+
+  /* font style */
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15.12px;
+  font-weight: 600;
+  line-height: 18.48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* subscribe section lower paragrpaph style */
+.p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 15.96px;
+  letter-spacing: 0%;
+  margin-top: 20.16px;
+  /* margin-bottom: 67.2px; */
+  text-align: center;
+}
