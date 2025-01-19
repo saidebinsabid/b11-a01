@@ -80,9 +80,9 @@ body {
 .header-banner-detail h3 {
   color: rgba(14, 14, 14, 0.5);
   font-family: Fira Sans;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 13.44px;
@@ -92,9 +92,9 @@ body {
 .header-banner-detail h1 {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
-  font-size: 47px;
+  font-size: 2.9rem;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 3.5rem;
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 20.16px;
@@ -656,15 +656,8 @@ table {
   background: rgb(255, 255, 255);
 }
 
-.news2 {
-  display: flex;
-  margin-top: 20.16px;
-  border-radius: 24px;
-  background: rgb(255, 255, 255);
-}
-
 /* 18th 24th image div image style */
-.news1-img img {
+.news1-img .image1 {
   width: 342.72px;
   height: 257.04px;
   border-radius: 24px;
@@ -757,9 +750,15 @@ table {
 }
 
 /* here start style for news2 */
+.news2 {
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
 
 /* 22th image div image style */
-.news2-img .img-new2 {
+.news2-image .image2 {
   width: 342.72px;
   height: 257.04px;
   border-radius: 24px;
@@ -1153,4 +1152,189 @@ table {
   gap: 19.32px;
   margin-top: 27.3px;
   padding-bottom: 42px;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .subscribe-container,
+  .subscribe-submit {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .header-banner {
+    width: 100%;
+  }
+  .header-banner-detail {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .header-banner-pic {
+    margin: 50px auto;
+  }
+  .hero-header h1 {
+    margin: 10px;
+  }
+
+  .hero-header button {
+    margin: 10px;
+  }
+
+  .header-banner {
+    flex-direction: column-reverse;
+  }
+
+  .vision-container {
+    flex-direction: column;
+  }
+  .vision-description2,
+  .vision-description {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .visionparagraph,
+  .visionheadline {
+    text-align: center;
+  }
+
+  .vision-description3 {
+    margin: 0 auto;
+  }
+  .dryunus-about {
+    height: auto;
+  }
+  .dryunus-about-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .option-headline {
+    text-align: center;
+  }
+  table {
+    margin: 0px;
+    border-radius: 0px;
+  }
+  #option-matter .option-matter-container {
+    margin: 0px;
+    border-radius: 0px;
+  }
+
+  #recent-news .heading {
+    text-align: center;
+  }
+  #recent-news .paragraph {
+    text-align: center;
+  }
+  .news1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news1-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* 18th 24th image div image style */
+  .news1-img .image1 {
+    width: 342.72px;
+    height: 257.04px;
+    border-radius: 24px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* 19th 25th div text style */
+  .news1-text {
+    margin: 47.04px 40.32px 47.04px 47.04px;
+  }
+
+  /* 17th 23th div style */
+  .news2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+  }
+
+  .news2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* 18th 24th image div image style */
+  .news2-image .image2 {
+    width: 342.72px;
+    height: 257.04px;
+    border-radius: 24px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* 19th 25th div text style */
+  .news2-text {
+    margin: 47.04px 40.32px 47.04px 47.04px;
+  }
+
+  .donate-amount {
+    flex-direction: column;
+    margin: 0px;
+    justify-content: left;
+    height: 100%;
+    width: 99%;
+  }
+
+  .taka,
+  .taka200 {
+    width: 201.6px;
+    height: 107.52px;
+  }
+
+  .other-amount input {
+    width: 99%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .subscribe-details p {
+    text-align: center;
+  }
+
+  .input-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-section input {
+    width: calc(100% - (10px * 2));
+    border-radius: 8px;
+    border-style: none;
+    background: rgb(255, 255, 255);
+  }
+
+  .button-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .button-section button {
+    border-radius: 8px;
+  }
+
+  .foot-container hr {
+    width: 99.5%;
+  }
 }
